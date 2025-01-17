@@ -1,0 +1,18 @@
+{
+    "include": [
+        "taskmanager",
+        "tests"
+    ],
+    "exclude": [
+        "**/node_modules",
+        "**/__pycache__"
+    ],
+    "strict": [],
+    "typeshedPath": "",
+    "venvPath": ".",
+    "venv": ".venv",
+    "reportMissingImports": true,
+    "reportMissingTypeStubs": false,
+    "pythonVersion": "3.12",
+    "typeCheckingMode": "strict"
+}
