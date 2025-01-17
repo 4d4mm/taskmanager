@@ -40,7 +40,7 @@ poetry run pytest
 coverage report:
 
 ```bash
-poetry run pytest --cov=src/task_manager --cov-report=term-missing --cov-report=html
+poetry run pytest --cov=taskmanager --cov-report=term-missing --cov-report=html
 ```
 
 ### Type Checking
