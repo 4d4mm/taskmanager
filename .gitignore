@@ -7,6 +7,7 @@
 .coverage
 .pytest_cache/
 .cache/
+htmlcov
 
 .DS_Store
 .idea/*
@@ -18,3 +19,6 @@
 
 .venv
 /poetry.toml
+
+# avoid pushing the development sqlite db
+memory
