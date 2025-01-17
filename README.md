@@ -49,3 +49,9 @@ Run Pyright type checking:
 ```bash
 poetry run pyright
 ```
+
+### Formatting
+
+```bash 
+poetry run black taskmanager tests
+```
